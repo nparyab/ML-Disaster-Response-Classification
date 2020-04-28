@@ -17,19 +17,41 @@ This picture is the main page of the application that displays the input space f
 
 
 <br />
-<img src="main.png" width=%50 height=%50  class="center">
+<img src="main.png" width=400 height=300  class="center">
 <br />
 
 
-In this next picture we will see how the categories of the message will look like
-<br />
-<br />
-
-
-<img src="search.png"  width=%50 height=%50 class="center">
+In this next picture we will see how the categories of the message will look like:
 <br />
 
 
+<img src="search.png"  width=500 height=300 class="center">
+<br />
+
+<h2> Project Components </h2>
+There are three components you'll need to complete for this project. 
+<ul> 1. ETL Pipeline
+In a Python script, process_data.py, write a data cleaning pipeline that:
+<li>	Loads the messages and categories datasets </li>
+<li>	Merges the two datasets </li>
+<li>	Cleans the data </li>
+<li>	Stores it in a SQLite database </li>
+ </ul>
+<ul>2. ML Pipeline
+In a Python script, train_classifier.py, write a machine learning pipeline that:
+<li>	Loads data from the SQLite database </li>
+<li>	Splits the dataset into training and test sets </li>
+<li>	Builds a text processing and machine learning pipeline </li>
+<li>	Trains and tunes a model using GridSearchCV </li>
+<li>	Outputs results on the test set </li>
+<li>	Exports the final model as a pickle file </li>
+ </ul>
+<ul> 3. Flask Web App </li>
+<li> File paths for database and model as needed </li>
+<li>	Add data visualizations using Plotly in the web app </li>
+</ul>
+
+Two juputer source files are also included as ETL_Pipeline.ipynb and ML_Pipeline.ipynb that comprehensively show all the ETL and ML pipeline steps. Some improved ML pipeline methods are included in the ML_Pipeline.ipynb file, but are not hooked up in the app because they were so slow to run.  
 
 
 </body>
