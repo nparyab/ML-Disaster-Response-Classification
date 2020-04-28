@@ -11,7 +11,8 @@ image source: www.datanami.com
 <br />
 <br />
 
-In this project, we will analyze disaster data from Figure Eight (in data directory) to build a model for a flask based API that classifies disaster messages.
+<h2> Overview </h2>
+In this code project, we will analyze disaster data from Figure Eight (in data directory) to build a model for a flask based API that classifies disaster messages.
 
 There are two data sets, one contains real messages that were sent during disaster events, and second is the categories that the message belong. We created a machine learning pipeline to categorize these events so that you can send the messages to an appropriate disaster relief agency.
 
