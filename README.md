@@ -14,12 +14,20 @@ There are two data sets, one contains real messages that were sent during disast
 This project includes a flask web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
 This picture is the main page of the application that displays the input space for the message search. For instance, the message "There's a lack of water in Moleya, please informed them for me." is submitted. 
+
+
 <br />
 <img src="main.png" width=%50 height=%50  class="center">
 <br />
+
+
 In this next picture we will see how the categories of the message will look like
 <br />
+<br />
+
+
 <img src="search.png"  width=%50 height=%50 class="center">
+<br />
 
 
 
