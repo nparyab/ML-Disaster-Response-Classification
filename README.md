@@ -57,5 +57,22 @@ In a Python script, train_classifier.py, write a machine learning pipeline that:
 Two juputer source files are also included as ETL_Pipeline.ipynb and ML_Pipeline.ipynb that comprehensively show all the ETL and ML pipeline steps. Some improved ML pipeline methods are included in the ML_Pipeline.ipynb file, but are not hooked up in the app because they were so slow to run.  
 
 
+<h2> Instructions to run the web app </h2>
+Please do the following steps:
+
+<ul> 1. Run the following commands in the project's root directory to set up your database and model.
+
+    <li> - To run ETL pipeline that cleans data and stores in database </li>
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    <li> - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`</li>
+</ul>
+
+<ul> 2. Run the following command in the app's directory to run your web app.
+    `python run.py` </ul>
+
+<ul> 3. Go to http://0.0.0.0:3001/ </ul>
+
+
 </body>
 </html>
