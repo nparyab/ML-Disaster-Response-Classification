@@ -4,8 +4,9 @@
  
 <h1>Disaster Response Classification with ETL and Machine Learning pipeline</h1>
 
-<img src="ml_pipeline.jpg" width=%100 height=%100 class="center">
 image source: www.datanami.com
+<img src="ml_pipeline.jpg" width=%100 height=%100 class="center">
+
 
 <br />
 <br />
