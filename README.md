@@ -5,7 +5,7 @@
 <h1>Disaster Response Classification with ETL and Machine Learning pipeline</h1>
 
 <img src="plots/covid_sk.jpg" width=%100 height=%100 class="center">
-
+image source: www.datanami.com
 
 In this project, we will analyze disaster data from Figure Eight to build a model for a flask based API that classifies disaster messages.
 
