@@ -48,6 +48,32 @@ def build_model():
     ])
     return pipeline
 
+def build_model_gridsearch():
+    pipeline = Pipeline([
+        ('features', FeatureUnion([
+
+            ('text_pipeline', Pipeline([
+                ('vect', CountVectorizer(tokenizer=tokenize)),
+                ('tfidf', TfidfTransformer())
+            ])),
+
+            
+        ])),
+
+        ('clf', MultiOutputClassifier(RandomForestClassifier()))
+    ])
+
+    parameters = {
+        'features__text_pipeline__vect__ngram_range': ((1, 1), (1, 2)),
+        'features__text_pipeline__vect__max_df': (0.5, 0.75, 1.0),
+        'features__text_pipeline__vect__max_features': (None, 5000, 10000),
+        'features__text_pipeline__tfidf__use_idf': (True, False),
+        'clf__estimator__max_depth': [10, 50, None],
+        'clf__estimator__min_samples_leaf':[2, 5, 10]
+    }
+    cv = GridSearchCV(pipeline, param_grid=parameters)
+    return cv
+
 
 def get_results(y_test, y_pred):
     results = pd.DataFrame(columns=['Category', 'f_score', 'precision', 'recall'])
