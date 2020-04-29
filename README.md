@@ -30,7 +30,7 @@ In this next picture we will see how the categories of the message will look lik
 <br />
 
 
-<img src="pics/search.png"  width=500 height=300 class="center">
+<img src="pics/search.png"  width=800 height=500 class="center">
 <br />
 
 <h2> Project Components </h2>
