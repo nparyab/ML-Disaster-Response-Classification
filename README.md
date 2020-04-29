@@ -5,7 +5,7 @@
 <h1>Disaster Response Classification with ETL and Machine Learning pipeline</h1>
 
 image source: www.datanami.com
-<img src="ml_pipeline.jpg" width=%50 height=%50 class="center">
+<img src="pics/ml_pipeline.jpg" width=%50 height=%50 class="center">
 
 
 <br />
@@ -22,7 +22,7 @@ This picture is the main page of the application that displays the input space f
 
 
 <br />
-<img src="main.png" width=400 height=300  class="center">
+<img src="pics/main.png" width=400 height=300  class="center">
 <br />
 
 
@@ -30,7 +30,7 @@ In this next picture we will see how the categories of the message will look lik
 <br />
 
 
-<img src="search.png"  width=500 height=300 class="center">
+<img src="pics/search.png"  width=800 height=500 class="center">
 <br />
 
 <h2> Project Components </h2>
